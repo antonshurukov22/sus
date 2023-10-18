@@ -17,8 +17,8 @@ import java.io.Writer;
 
 public class JSONtoCSV {
     public static void main(String[] args) {
-        String jsonFilePath = "C:\\sus\\import.json";
-        String csvFilePath = "C:\\sus\\output.csv";
+        String jsonFilePath = "inputJSON.json";
+        String csvFilePath = "output.csv";
         try {
             // Чтение JSON файла
             JsonParser jsonParser = new JsonParser();
